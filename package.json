@@ -1,0 +1,20 @@
+{
+  "name": "tempo-tarif",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "zod": "^3.24.1"
+  }
+}
